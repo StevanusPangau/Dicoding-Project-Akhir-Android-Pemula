@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Daftar Bahasa Pemrograman</string>
+
+    <string name="heroes_name">Nama Pahlawan</string>
+    <string name="description">Deskripsi</string>
+    <string name="about">About</string>
+    <string name="title">Judul Bahasa Pemrograman</string>
+    <string name="content_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="lorem8">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="detail">Detail Informasi</string>
+    <string name="website">Website</string>
+    <string name="rilis_oleh">Di Rilis Oleh</string>
+    <string name="tahun_rilis">Tahun Rilis</string>
+    <string name="kelebihan">Kelebihan</string>
+    <string name="share">Bagikan</string>
+    <string name="name">Stevanus Evan Pangau</string>
+    <string name="email">stevanuspangau50@gmail.com</string>
+    <string name="user">User</string>
+
+    <string-array name="data_name">
+        <item>Kotlin</item>
+        <item>Golang</item>
+        <item>Javascript</item>
+        <item>TypeScript</item>
+        <item>PHP</item>
+        <item>NodeJs</item>
+        <item>Swift</item>
+        <item>Java</item>
+        <item>Rust</item>
+        <item>Python</item>p
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Kotlin adalah bahasa pemrograman modern, disajikan secara statis yang berjalan pada platform Java Virtual Machine (JVM). Kotlin menggunakan compiler LLVM yang artinya, dapat dikompilasi ke dalam kode JavaScript. Bahasa pemrograman yang satu ini banyak diminati oleh para developer. Terutama bagi kamu yang ingin jadi developer Android, pakailah bahasa yang satu ini.</item>
+        <item>Golang adalah bahasa pemrograman yang diketik secara statis dan menghasilkan kode biner mesin yang dikompilasi. Menariknya, bahasa pemrograman yang satu ini bersifat open source. Golang dihimpun dan ditulis menggunakan bahasa pemrogaman C</item>
+        <item>JavaScript (JS) adalah bahasa pemrograman yang memungkinkan pengguna untuk mengimplementasikan fitur dan fungsi pada bagian tertentu di halaman web. JavaScript dapat membuat situs web dan aplikasi lebih interaktif dan dinamis.</item>
+        <item>Typescript adalah bahasa pemrograman berbasis JavaScript yang menambahkan fitur strong-typing dan konsep pemrograman OOP klasik ( class, interface). Di dalam dokumentasinya, TypeScript disebut sebagai super-set dari JavaScript, artinya semua kode JavaScript adalah kode TypeScript juga. </item>
+        <item>PHP (Hypertext Preprocessor) adalah bahasa pemrograman open-source yang umumnya digunakan untuk membangun aplikasi web dinamis dan interaktif. PHP dapat dijalankan pada server web dan dikombinasikan dengan HTML, CSS, dan JavaScript untuk membuat halaman web yang dinamis. </item>
+        <item>Node.js merupakan platform yang diciptakan secara khusus untuk membantu pengembangan aplikasi berbasis web. Walau demikian, Node.js bukan bahasa pemrograman yang baru, tetapi runtime envinronment atau interpreter untuk menjalankan bahasa pemrograman JavaScript sebagai kebutuhan back-end developing.</item>
+        <item>Swift adalah sebuah nama bahasa pemrograman yang memiliki orientasi terhadap objek yang sedang dikembangkan untuk membuat produk dari perusahaan Apple.</item>
+        <item>Java merupakan bahasa pemrograman yang digunakan secara luas untuk pengodean aplikasi web. Bahasa ini telah menjadi pilihan populer di antara developer selama lebih dari dua dekade, dengan jutaan aplikasi Java yang digunakan saat ini. Java merupakan bahasa multiplatform yang berorientasi pada objek dan berpusat pada jaringan yang dapat digunakan sebagai platform di dalamnya. Java merupakan bahasa pemrograman yang cepat, aman, dan andal untuk mengodekan segala sesuatu mulai dari aplikasi seluler dan perangkat lunak korporasi hingga aplikasi big data dan teknologi sisi server.</item>
+        <item>Rust adalah sebuah bahasa pemrograman general purpose yang fokus pada performance, type safety, dan concurrency. Bahasa ini diciptakan sebagai alternatif bahasa pemrograman yang berfokus pada hal-hal yang cukup low-level tapi tetap men-support fitur yang sifatnya high-level.</item>
+        <item>Python merupakan bahasa pemrograman komputer yang biasa dipakai untuk membangun situs, software/aplikasi, mengotomatiskan tugas dan melakukan analisis data. Bahasa pemrograman ini termasuk bahasa tujuan umum. Artinya, ia bisa digunakan untuk membuat berbagai program berbeda, bukan khusus untuk masalah tertentu saja.</item>
+    </string-array>
+
+    <string-array name="data_creator">
+        <item>JetBrains</item>
+        <item>Google</item>
+        <item>Netscape</item>
+        <item>Microsoft</item>
+        <item>Rasmus Lerdorf</item>
+        <item>Ryan Dahl</item>
+        <item>Apple Inc.</item>
+        <item>Sun Microsystems</item>
+        <item>Mozilla Research</item>
+        <item>Guido van Rossum</item>
+    </string-array>
+
+    <string-array name="data_year">
+        <item>2011</item>
+        <item>2009</item>
+        <item>1995</item>
+        <item>2012</item>
+        <item>1995</item>
+        <item>2009</item>
+        <item>2014</item>
+        <item>1995</item>
+        <item>2010</item>
+        <item>1991</item>
+    </string-array>
+
+    <string-array name="data_website">
+        <item>https://kotlinlang.org/</item>
+        <item>https://golang.org/</item>
+        <item>https://www.javascript.com/</item>
+        <item>https://www.typescriptlang.org/</item>
+        <item>https://www.php.net/</item>
+        <item>https://nodejs.org/</item>
+        <item>https://developer.apple.com/swift/</item>
+        <item>https://www.java.com/</item>
+        <item>https://www.rust-lang.org/</item>
+        <item>https://www.python.org/</item>
+    </string-array>
+
+    <string-array name="data_excess">
+        <item>Memiliki sintaks yang lebih sederhana dan mudah dipahami.</item>
+        <item>Memiliki performa yang cepat.</item>
+        <item>Memiliki kemampuan untuk membuat situs web dan aplikasi lebih interaktif dan dinamis.</item>
+        <item>Memiliki fitur strong-typing dan konsep pemrograman OOP klasik.</item>
+        <item>Memiliki kemampuan untuk membuat halaman web yang dinamis.</item>
+        <item>Memiliki kemampuan untuk membantu pengembangan aplikasi berbasis web.</item>
+        <item>Memiliki sintaks yang lebih sederhana dan mudah dipahami.</item>
+        <item>Memiliki sintaks yang lebih sederhana dan mudah dipahami.</item>
+        <item>Memiliki performa yang cepat.</item>
+        <item>Memiliki kemampuan untuk membuat berbagai program berbeda.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/kotlin</item>
+        <item>@drawable/golang</item>
+        <item>@drawable/javascript</item>
+        <item>@drawable/typescript</item>
+        <item>@drawable/php</item>
+        <item>@drawable/nodejs</item>
+        <item>@drawable/swift</item>
+        <item>@drawable/java</item>
+        <item>@drawable/rust</item>
+        <item>@drawable/python</item>
+    </integer-array>
+
+    <!--    <string-array name="data_photo">-->
+    <!--        <item>https://logowik.com/content/uploads/images/kotlin.jpg</item>-->
+    <!--        <item>https://upload.wikimedia.org/wikipedia/commons/3/3f/Ahmad_Yani.jpg</item>-->
+    <!--        <item>https://upload.wikimedia.org/wikipedia/commons/e/ed/Bung_Tomo.jpg</item>-->
+    <!--        <item>https://upload.wikimedia.org/wikipedia/commons/b/be/Col_Gatot_Subroto%2C_Kenang-Kenangan_Pada_Panglima_Besar_Letnan_Djenderal_Soedirman%2C_p27.jpg</item>-->
+    <!--        <item>https://upload.wikimedia.org/wikipedia/commons/3/3a/Ki_Hadjar_Dewantara_Mimbar_Umum_18_October_1949_p2.jpg</item>-->
+    <!--        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/VP_Hatta.jpg/330px-VP_Hatta.jpg</item>-->
+    <!--        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Sudirman.jpg/486px-Sudirman.jpg</item>-->
+    <!--        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Presiden_Sukarno.jpg/330px-Presiden_Sukarno.jpg</item>-->
+    <!--        <item>https://upload.wikimedia.org/wikipedia/commons/a/a6/Supomo.jpg</item>-->
+    <!--        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/TanMalaka_DariPendjara_ed3.jpg/330px-TanMalaka_DariPendjara_ed3.jpg</item>-->
+    <!--    </string-array>-->
+</resources>

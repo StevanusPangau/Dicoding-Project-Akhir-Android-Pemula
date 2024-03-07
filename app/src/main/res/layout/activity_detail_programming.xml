@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_programming"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/javascript" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/TextContent.HeadlineMedium.Bold.White"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/title" />
+
+        <TextView
+            style="@style/TextContent.TitleMedium.White.Bold.MarginLeftRight"
+            android:layout_marginBottom="16dp"
+            android:text="@string/description"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            style="@style/TextContent.BodyMedium.Gray.MarginLeftRight"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:text="@string/content_description" />
+
+        <TextView
+            style="@style/TextContent.TitleMedium.White.Bold.MarginLeftRight"
+            android:layout_marginBottom="8dp"
+            android:text="@string/detail" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.White.Bold"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/rilis_oleh" />
+
+                <TextView
+                    android:id="@+id/tv_creator"
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_weight="1"
+                    android:text="@string/lorem8" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.White.Bold"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/tahun_rilis" />
+
+                <TextView
+                    android:id="@+id/tv_year"
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_weight="1"
+                    android:text="@string/lorem8" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.White.Bold"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/website" />
+
+                <TextView
+                    android:id="@+id/tv_website"
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_weight="1"
+                    android:text="@string/lorem8" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.White.Bold"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/kelebihan" />
+
+                <TextView
+                    android:id="@+id/tv_excess"
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_weight="1"
+                    android:text="@string/lorem8" />
+            </TableRow>
+        </TableLayout>
+
+<!--        <TextView-->
+<!--            style="@style/TextContent.TitleMedium.Bold.MarginLeftRight"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:text="@string/seller" />-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="16dp"-->
+<!--            android:layout_marginRight="16dp"-->
+<!--            android:layout_marginBottom="16dp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/profile_image"-->
+<!--                android:layout_width="56dp"-->
+<!--                android:layout_height="56dp"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:layout_marginEnd="16dp"-->
+<!--                android:src="@drawable/photo_2" />-->
+
+<!--            <TextView-->
+<!--                style="@style/TextContent.BodyMedium.Gray"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:layout_toEndOf="@+id/profile_image"-->
+<!--                android:text="@string/my_name" />-->
+<!--        </RelativeLayout>-->
+
+        <Button
+            android:id="@+id/action_share"
+            style="@style/ButtonGeneral.SecondaryVariant"
+            android:text="@string/share" />
+
+
+    </LinearLayout>
+</ScrollView>
